@@ -1,0 +1,475 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>资产API · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="add-asset.html" />
+    
+    
+    <link rel="prev" href="../dataAPI/add-data.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../alarmAPI/">
+            
+                <a href="../alarmAPI/">
+            
+                    
+                    告警API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../alarmAPI/add-alarm.html">
+            
+                <a href="../alarmAPI/add-alarm.html">
+            
+                    
+                    增加告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../alarmAPI/update-alarm.html">
+            
+                <a href="../alarmAPI/update-alarm.html">
+            
+                    
+                    更新告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../alarmAPI/delete-alarm.html">
+            
+                <a href="../alarmAPI/delete-alarm.html">
+            
+                    
+                    删除告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../dataAPI/">
+            
+                <a href="../dataAPI/">
+            
+                    
+                    指标数据API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../dataAPI/add-data.html">
+            
+                <a href="../dataAPI/add-data.html">
+            
+                    
+                    推送指标数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    资产API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="add-asset.html">
+            
+                <a href="add-asset.html">
+            
+                    
+                    增加资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="update-asset.html">
+            
+                <a href="update-asset.html">
+            
+                    
+                    更新资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="delete-asset.html">
+            
+                <a href="delete-asset.html">
+            
+                    
+                    删除资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../appendix/appendix1.html">
+            
+                <a href="../appendix/appendix1.html">
+            
+                    
+                    附录一
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >资产API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8D44;&#x4EA7;api">&#x8D44;&#x4EA7;API</h1>
+<p>&#x5BF9;&#x4E8E;&#x8D44;&#x4EA7;&#x7684;&#x7BA1;&#x7406;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x7684;&#x8D44;&#x4EA7;&#x6570;&#x636E;&#x5728;&#x521D;&#x59CB;&#x5316;&#x7684;&#x7CFB;&#x7EDF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x5C06;&#x8D44;&#x4EA7;&#x6570;&#x636E;&#x6574;&#x7406;&#x5BFC;&#x5165;&#x7CFB;&#x7EDF;&#x3002;&#x5BF9;&#x4E8E;&#x7CFB;&#x7EDF;&#x4E0A;&#x7EBF;&#x540E;&#xFF0C;&#x5BF9;&#x4E8E;&#x5C11;&#x91CF;&#x7684;&#x8D44;&#x4EA7;&#x64CD;&#x4F5C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8D44;&#x4EA7;API&#xFF0C;&#x901A;&#x8FC7;&#x8D44;&#x4EA7;API&#x5BF9;&#x8D44;&#x4EA7;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x53EF;&#x4EE5;&#x5B9E;&#x65F6;&#x540C;&#x6B65;&#x5230;&#x524D;&#x7AEF;&#x6D4F;&#x89C8;&#x5668;</p>
+<h3 id="&#x8D44;&#x4EA7;&#x5B57;&#x6BB5;&#x5217;&#x8868;">&#x8D44;&#x4EA7;&#x5B57;&#x6BB5;&#x5217;&#x8868;</h3>
+<style>
+table th:nth-child(3) {
+    min-width: 30px;
+}
+</style>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:center">&#x7C7B;&#x578B;</th>
+<th style="text-align:center">&#x5FC5;&#x9700;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x7F16;&#x53F7;</td>
+</tr>
+<tr>
+<td style="text-align:left">name</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x540D;&#x79F0;</td>
+</tr>
+<tr>
+<td style="text-align:left">description</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x63CF;&#x8FF0;</td>
+</tr>
+<tr>
+<td style="text-align:left">position</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x53C2;&#x8003;&#x9644;&#x5F55;&#x4E00;&#xFF1A;location&#x3001;position&#x3001;&#x7A7A;&#x95F4;&#x89C4;&#x5212;</td>
+</tr>
+<tr>
+<td style="text-align:left">position2d</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">2D&#x4E2D;&#x7684;&#x7269;&#x7406;&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td style="text-align:left">rotation</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x8868;&#x793A;&#x8D44;&#x4EA7;&#x5BF9;&#x8C61;&#x7684;&#x65CB;&#x8F6C;&#x503C;&#xFF0C;{x:0,y:0,z:0}&#xFF0C;x&#x3001;y&#x3001;z&#x5206;&#x522B;&#x8868;&#x793A;&#x4E09;&#x4E2A;&#x65B9;&#x5411;&#x4E0A;&#x7684;&#x65CB;&#x8F6C;&#x89D2;&#x5EA6;</td>
+</tr>
+<tr>
+<td style="text-align:left">location</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x53C2;&#x8003;&#x9644;&#x5F55;&#x4E00;&#xFF1A;location&#x3001;position&#x3001;&#x7A7A;&#x95F4;&#x89C4;&#x5212;</td>
+</tr>
+<tr>
+<td style="text-align:left">parentId</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x7236;&#x5BF9;&#x8C61;&#xFF0C;&#x4F8B;&#x5982;&#x8BBE;&#x5907;&#x7684;&#x7684;&#x7236;&#x5BF9;&#x8C61;&#x4E3A;&#x673A;&#x67DC;</td>
+</tr>
+<tr>
+<td style="text-align:left">dataTypeId</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x8D44;&#x4EA7;&#x6A21;&#x578B;&#x7F16;&#x53F7;</td>
+</tr>
+<tr>
+<td style="text-align:left">weight</td>
+<td style="text-align:center">int</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x8D44;&#x4EA7;&#x91CD;&#x91CF;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../dataAPI/add-data.html" class="navigation navigation-prev " aria-label="Previous page: 推送指标数据">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="add-asset.html" class="navigation navigation-next " aria-label="Next page: 增加资产">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"资产API","level":"1.4","depth":1,"next":{"title":"增加资产","level":"1.4.1","depth":2,"path":"assetAPI/add-asset.md","ref":"assetAPI/add-asset.md","articles":[]},"previous":{"title":"推送指标数据","level":"1.3.1","depth":2,"path":"dataAPI/add-data.md","ref":"dataAPI/add-data.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"assetAPI/README.md","mtime":"2017-02-10T03:26:42.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-10T04:40:09.693Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

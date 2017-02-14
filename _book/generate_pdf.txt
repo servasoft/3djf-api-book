@@ -1,0 +1,9 @@
+gitbook pdf ./build
+如果提示：
+Need to install ebook-convert from Calibre
+到提示网站上下载calibre：
+Calibre 上下载calibre-2.17.0.dmg,之后安装，选择英文版（方便找到calibre - Preferences - Miscellaneous - Install command line tools），找不到Install command line tools则可以终端执行 ：
+
+ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+
+然后再执行

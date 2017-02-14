@@ -1,0 +1,478 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>告警API · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="add-alarm.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    告警API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="add-alarm.html">
+            
+                <a href="add-alarm.html">
+            
+                    
+                    增加告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="update-alarm.html">
+            
+                <a href="update-alarm.html">
+            
+                    
+                    更新告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="delete-alarm.html">
+            
+                <a href="delete-alarm.html">
+            
+                    
+                    删除告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../dataAPI/">
+            
+                <a href="../dataAPI/">
+            
+                    
+                    指标数据API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../dataAPI/add-data.html">
+            
+                <a href="../dataAPI/add-data.html">
+            
+                    
+                    推送指标数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../assetAPI/">
+            
+                <a href="../assetAPI/">
+            
+                    
+                    资产API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../assetAPI/add-asset.html">
+            
+                <a href="../assetAPI/add-asset.html">
+            
+                    
+                    增加资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../assetAPI/update-asset.html">
+            
+                <a href="../assetAPI/update-asset.html">
+            
+                    
+                    更新资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../assetAPI/delete-asset.html">
+            
+                <a href="../assetAPI/delete-asset.html">
+            
+                    
+                    删除资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../appendix/appendix1.html">
+            
+                <a href="../appendix/appendix1.html">
+            
+                    
+                    附录一
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >告警API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x544A;&#x8B66;api">&#x544A;&#x8B66;API</h1>
+<blockquote>
+<p>&#x544A;&#x8B66;API&#x5305;&#x542B;&#xFF1A;&#x589E;&#x52A0;&#x3001;&#x66F4;&#x65B0;&#x3001;&#x5220;&#x9664;&#x3001;&#x67E5;&#x8BE2;&#x3002;&#x6A21;&#x62DF;&#x9700;&#x6C42;&#x573A;&#x666F;&#xFF0C;&#x5BF9;4&#x79CD;API&#x8FDB;&#x884C;&#x8BF4;&#x660E;&#x3002;</p>
+</blockquote>
+<p>&#x9700;&#x6C42;&#x573A;&#x666F;&#xFF1A;&#x7F16;&#x53F7;&#x4E3A;rack84_E01&#x8BBE;&#x5907;&#xFF0C;&#x53EF;&#x80FD;&#x4EA7;&#x751F;&#x4E09;&#x79CD;&#x544A;&#x8B66;&#xFF1A;&#x6E29;&#x5EA6;&#x544A;&#x8B66;&#xFF0C;&#x7F51;&#x7EDC;&#x544A;&#x8B66;&#xFF0C;&#x7269;&#x7406;&#x544A;&#x8B66;</p>
+<h3 id="&#x544A;&#x8B66;&#x5B57;&#x6BB5;&#x5217;&#x8868;">&#x544A;&#x8B66;&#x5B57;&#x6BB5;&#x5217;&#x8868;</h3>
+<style>
+table th:nth-child(3) {
+    min-width: 30px;
+}
+</style>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:center">&#x7C7B;&#x578B;</th>
+<th style="text-align:center">&#x5FC5;&#x9700;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">realId</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x544A;&#x8B66;&#x7684;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#xFF0C;&#x4E0E;&#x63A5;&#x53E3;&#x4E2D;alarmID&#x5BF9;&#x5E94;</td>
+</tr>
+<tr>
+<td style="text-align:left">dataId</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x53D1;&#x751F;&#x544A;&#x8B66;&#x7684;&#x8BBE;&#x5907;&#x7F16;&#x53F7;&#xFF0C;&#x4E0E;&#x63A5;&#x53E3;&#x4E2D;deviceID&#x5BF9;&#x5E94;</td>
+</tr>
+<tr>
+<td style="text-align:left">alarmTypeId</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x5BF9;&#x5E94;&#x544A;&#x8B66;&#x7C7B;&#x578B;&#x4E2D;&#x7684;&#x7F16;&#x53F7;&#xFF0C;&#x53C2;&#x8003;&#x544A;&#x8B66;&#x7C7B;&#x578B;&#x6A21;&#x5757;&#xFF0C;&#x4E0E;&#x63A5;&#x53E3;&#x4E2D;alarmType&#x5BF9;&#x5E94;</td>
+</tr>
+<tr>
+<td style="text-align:left">level</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">&#x662F;</td>
+<td style="text-align:left">&#x5BF9;&#x5E94;&#x544A;&#x8B66;&#x7EA7;&#x522B;&#x4E2D;&#x7684;&#x7F16;&#x53F7;&#xFF0C;&#x53C2;&#x8003;&#x544A;&#x8B66;&#x7EA7;&#x522B;&#x6A21;&#x5757;</td>
+</tr>
+<tr>
+<td style="text-align:left">devIp</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x53D1;&#x751F;&#x544A;&#x8B66;&#x7684;IP</td>
+</tr>
+<tr>
+<td style="text-align:left">time</td>
+<td style="text-align:center">date</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x544A;&#x8B66;&#x53D1;&#x751F;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td style="text-align:left">ackTime</td>
+<td style="text-align:center">date</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x544A;&#x8B66;&#x786E;&#x8BA4;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td style="text-align:left">ackNotice</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x786E;&#x8BA4;&#x544A;&#x8B66;&#x65F6;&#x5907;&#x6CE8;</td>
+</tr>
+<tr>
+<td style="text-align:left">description</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x63CF;&#x8FF0;</td>
+</tr>
+<tr>
+<td style="text-align:left">client</td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center"></td>
+<td style="text-align:left">&#x6269;&#x5C55;&#x7684;&#x5B57;&#x6BB5;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 简介">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="add-alarm.html" class="navigation navigation-next " aria-label="Next page: 增加告警">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"告警API","level":"1.2","depth":1,"next":{"title":"增加告警","level":"1.2.1","depth":2,"path":"alarmAPI/add-alarm.md","ref":"alarmAPI/add-alarm.md","articles":[]},"previous":{"title":"简介","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"alarmAPI/README.md","mtime":"2017-02-10T03:25:46.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-10T04:40:09.693Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
