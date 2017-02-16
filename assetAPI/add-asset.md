@@ -49,7 +49,11 @@ var data = {
             name: 'b8r201c04r23e01',
             location: {"y":28,"z":"pos_pos"},
             parentId: 'b8r201c04r23',
-            dataTypeId: 'equipment2'
+            dataTypeId: 'equipment2',
+            customField: {
+            		ipAddr: '192.168.1.11',
+            		brand: '华为'
+            }
         }
     ]
 };
