@@ -23,7 +23,8 @@ Accept: application/json
             location: string，参考附录一：location、position、空间规划,
             parentId: string，required，父对象，例如设备的的父对象为机柜,
             dataTypeId: string，required，资产模型编号,
-            weight: int，资产重量
+            weight: int，资产重量，
+            customField: {}，资产的扩展字段，扩展字段是存在根据资产分类创建的扩展表中。customField中内容为扩展表中的字段
         }
     ]
 }
