@@ -48,7 +48,7 @@ array为数组，数组元素包含资产的所有字段，以及资产的所有
 
 $.ajax({
     url: '/api/monitor/asset/customField',
-    data: {assetProps:JSON.stringify({id:'002'})},
+    data: {assetProps:JSON.stringify({id:'b8r201c04r23e01'})},
     type: 'GET',
     success: function(result) {
         console.log(result);
