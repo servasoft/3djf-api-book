@@ -7,6 +7,7 @@
     * [删除告警](alarmAPI/delete-alarm.md)
 * [指标数据API](dataAPI/README.md)
     * [推送指标数据](dataAPI/add-data.md)
+    * [添加湿度监控](dataAPI/humidity-monitor.md)
 * [资产API](assetAPI/README.md)
     * [增加资产](assetAPI/add-asset.md)
     * [更新资产](assetAPI/update-asset.md)
