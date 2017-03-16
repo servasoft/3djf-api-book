@@ -17,10 +17,10 @@ Accept: application/json
             id: string，required，编号,
             name : string，required，名称,
             description: string，描述,
-            position: string，参考附录一：location、position、空间规划,
+            position: string，物理坐标，值是{x:0,y:0,z:0}的JSON字符串，参考附录一：location、position、空间规划,
             position2d: string，2D中的物理坐标,
             rotation: string，表示资产对象的旋转值，{x:0,y:0,z:0}，x、y、z分别表示三个方向上的旋转角度,
-            location: string，参考附录一：location、position、空间规划,
+            location: string，逻辑坐标，值是{x:0,y:0,z:0}的JSON字符串，，参考附录一：location、position、空间规划,
             parentId: string，required，父对象，例如设备的的父对象为机柜,
             dataTypeId: string，required，资产模型编号,
             weight: int，资产重量，
