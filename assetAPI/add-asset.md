@@ -35,7 +35,7 @@ Accept: application/json
 Content-Type: application/json
 
 ```
-{value:"success", error:''}
+{value: 添加的资产对象(JSON格式), error:''}
 ```
 
 ### Demo
