@@ -12,6 +12,7 @@
     * [增加资产](assetAPI/add-asset.md)
     * [更新资产](assetAPI/update-asset.md)
     * [删除资产](assetAPI/delete-asset.md)
+    * [查询资产](assetAPI/get-asset.md)
     * [获取资产及扩展字段](assetAPI/get-asset-customField.md)
 * [附录一](appendix/appendix1.md)
 
