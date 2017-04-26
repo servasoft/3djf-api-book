@@ -57,7 +57,7 @@ var data = {
         }
     ]
 };
-$.post('/api/monitor/alarms', data, function(data, textStatus, xhr) {
+$.post('/api/monitor/asset', data, function(data, textStatus, xhr) {
     /*optional stuff to do after success */
 });
 ```

@@ -1,7 +1,7 @@
 # 删除资产
 
 <font face="Droid Sans Mono,monospace" size="5">
-<font color="#ed3b00"><b>POST</b></font> <font color="#888">http://{serverhost:serverport}</font>/api/monitor/asset/[<font color="#571800">id</font>]
+<font color="#ed3b00"><b>DELETE</b></font> <font color="#888">http://{serverhost:serverport}</font>/api/monitor/asset/[<font color="#571800">id</font>]
 </font>
 
 
