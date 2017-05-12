@@ -1,0 +1,492 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>添加湿度监控 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../assetAPI/" />
+    
+    
+    <link rel="prev" href="add-data.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../alarmAPI/">
+            
+                <a href="../alarmAPI/">
+            
+                    
+                    告警API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../alarmAPI/add-alarm.html">
+            
+                <a href="../alarmAPI/add-alarm.html">
+            
+                    
+                    增加告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../alarmAPI/update-alarm.html">
+            
+                <a href="../alarmAPI/update-alarm.html">
+            
+                    
+                    更新告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../alarmAPI/delete-alarm.html">
+            
+                <a href="../alarmAPI/delete-alarm.html">
+            
+                    
+                    删除告警
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    指标数据API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="add-data.html">
+            
+                <a href="add-data.html">
+            
+                    
+                    推送指标数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="humidity-monitor.html">
+            
+                <a href="humidity-monitor.html">
+            
+                    
+                    添加湿度监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../assetAPI/">
+            
+                <a href="../assetAPI/">
+            
+                    
+                    资产API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../assetAPI/add-asset.html">
+            
+                <a href="../assetAPI/add-asset.html">
+            
+                    
+                    增加资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../assetAPI/update-asset.html">
+            
+                <a href="../assetAPI/update-asset.html">
+            
+                    
+                    更新资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../assetAPI/delete-asset.html">
+            
+                <a href="../assetAPI/delete-asset.html">
+            
+                    
+                    删除资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../assetAPI/get-asset.html">
+            
+                <a href="../assetAPI/get-asset.html">
+            
+                    
+                    查询资产
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../assetAPI/get-asset-customField.html">
+            
+                <a href="../assetAPI/get-asset-customField.html">
+            
+                    
+                    获取资产及扩展字段
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../appendix/appendix1.html">
+            
+                <a href="../appendix/appendix1.html">
+            
+                    
+                    附录一
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >添加湿度监控</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6DFB;&#x52A0;&#x6E7F;&#x5EA6;&#x76D1;&#x63A7;">&#x6DFB;&#x52A0;&#x6E7F;&#x5EA6;&#x76D1;&#x63A7;</h1>
+<p>&#x5148;&#x63CF;&#x8FF0;&#x4E0B;3D&#x673A;&#x623F;&#x7CFB;&#x7EDF;&#x7684;&#x6D41;&#x7A0B;&#xFF0C;&#x5F53;&#x663E;&#x793A;&#x6E7F;&#x5EA6;&#x4FE1;&#x606F;&#x7684;&#x65F6;&#x5019;&#xFF0C;</p>
+<ol>
+<li>&#x627E;&#x5230;&#x5F53;&#x524D;&#x573A;&#x666F;&#x4E2D;&#x8D44;&#x4EA7;&#x5BF9;&#x8C61;</li>
+<li>&#x627E;&#x5230;&#x8D44;&#x4EA7;&#x5BF9;&#x8C61;&#x7684;&#x4F20;&#x611F;&#x5668;&#xFF0C;&#x5E76;&#x4E14;&#x4F20;&#x611F;&#x5668;&#x7684;&#x7C7B;&#x578B;&#x4E3A;&#x6E7F;&#x5EA6;&#xFF0C;&#x8D44;&#x4EA7;&#x5BF9;&#x8C61;&#x8DDF;&#x4F20;&#x611F;&#x5668;&#x4E3A;&#x7236;&#x5B50;&#x5173;&#x7CFB;</li>
+<li>&#x6839;&#x636E;&#x4F20;&#x611F;&#x5668;&#x7684;ID&#x627E;&#x5230;&#x5176;&#x5173;&#x8054;&#x5173;&#x7CFB;&#xFF0C;&#x5C06;&#x5173;&#x8054;&#x5173;&#x7CFB;&#x4E2D;&#x9700;&#x8981;&#x7684;&#x4E1A;&#x52A1;&#x5BF9;&#x8C61;&#x53CA;&#x5176;&#x5C5E;&#x6027;&#x7EC4;&#x7EC7;&#x4E3A;&#x8BA2;&#x9605;&#x8BA2;&#x5355;</li>
+<li>&#x5C06;&#x8BA2;&#x9605;&#x8BA2;&#x5355;&#x53D1;&#x9001;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x8BA2;&#x9605;&#x6570;&#x636E;&#xFF0C;&#x7B49;&#x5F85;&#x670D;&#x52A1;&#x5668;&#x63A8;&#x9001;</li>
+<li>&#x670D;&#x52A1;&#x5668;&#x54CD;&#x5E94;&#x540E;&#xFF0C;&#x6839;&#x636E;&#x7F13;&#x5B58;&#x53CD;&#x5411;&#x67E5;&#x5BFB;&#xFF0C;&#x5B9A;&#x4F4D;&#x4F20;&#x611F;&#x5668;&#xFF0C;&#x5E76;&#x66F4;&#x65B0;&#x4F20;&#x611F;&#x5668;&#x7684;&#x503C;</li>
+</ol>
+<p>&#x7EFC;&#x4E0A;&#x6240;&#x8FF0;&#xFF0C;&#x5206;&#x6790;&#x5F97;&#x77E5;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x7684;&#x6570;&#x636E;&#x6709;&#xFF1A;</p>
+<ol>
+<li><p>&#x8D44;&#x4EA7;&#x5BF9;&#x8C61;</p>
+<p>&#x6E7F;&#x5EA6;&#x662F;&#x623F;&#x95F4;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x623F;&#x95F4;&#x7684;&#x8D44;&#x4EA7;&#x5BF9;&#x8C61;</p>
+<pre><code>{
+  id:&quot;f2-r1&quot;,
+  description:&quot;&#x4E8C;&#x697C;&#x623F;&#x95F4;&#x4E00;&quot;,    
+  parentId:&quot;floor2&quot;,
+  dataTypeId:&quot;area01&quot;
+}
+</code></pre></li>
+<li><p>&#x4F20;&#x611F;&#x5668;</p>
+<p>&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x6E7F;&#x5EA6;&#x4F20;&#x611F;&#x5668;</p>
+<pre><code>{
+  id:&quot;humidity01&quot;,
+  description:&quot;&#x6E7F;&#x5EA6;&#x4F20;&#x611F;&#x5668;&quot;,
+  parentId:&quot;f2-r1&quot;,
+  type:&quot;humidity&quot;,
+  position:{x:3,y:100,z:300}
+}
+</code></pre></li>
+<li><p>&#x4E1A;&#x52A1;&#x5BF9;&#x8C61;&#x53CA;&#x5176;&#x5C5E;&#x6027;</p>
+<p>&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x6E7F;&#x5EA6;&#x4F20;&#x611F;&#x5668;&#x7684;&#x4E1A;&#x52A1;&#x5BF9;&#x8C61;</p>
+<pre><code>{
+  id:&quot;hum01&quot;,
+  description:&quot;&#x6E7F;&#x5EA6;&#x4F20;&#x611F;&#x5668;&quot;,
+  type:&quot;SRH&quot;
+}
+</code></pre><p>&#x6DFB;&#x52A0;&#x4E1A;&#x52A1;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;</p>
+<pre><code>{
+  type:&quot;SRH&quot;,
+  property:&quot;humidity&quot;,
+  valueType:&quot;number&quot;,
+  unit:&quot;%rh&quot;
+}
+</code></pre></li>
+<li><p>&#x5173;&#x8054;&#x5173;&#x7CFB;</p>
+<p>&#x6DFB;&#x52A0;&#x4F20;&#x611F;&#x5668;&#x4E0E;&#x4E1A;&#x52A1;&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x8054;&#x5173;&#x7CFB;</p>
+<pre><code>{
+  id:&quot;humidity01&quot;,
+  relations:&quot;[{&quot;bid&quot;:&quot;hum01&quot;,&quot;property&quot;:&quot;humidity&quot;}]&quot;
+}
+</code></pre></li>
+<li><p>&#x7B2C;&#x4E09;&#x65B9;&#x63A8;&#x9001;&#x7684;JSON&#x6570;&#x636E;&#x683C;&#x5F0F;&#xFF1A;</p>
+<pre><code> {
+     module:&quot;PEMS&quot;,
+     data:{
+         &quot;hum01&quot;:{
+             &quot;humidity&quot;:60
+         }
+     }
+ }
+</code></pre></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="add-data.html" class="navigation navigation-prev " aria-label="Previous page: 推送指标数据">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../assetAPI/" class="navigation navigation-next " aria-label="Next page: 资产API">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"添加湿度监控","level":"1.3.2","depth":2,"next":{"title":"资产API","level":"1.4","depth":1,"path":"assetAPI/README.md","ref":"assetAPI/README.md","articles":[{"title":"增加资产","level":"1.4.1","depth":2,"path":"assetAPI/add-asset.md","ref":"assetAPI/add-asset.md","articles":[]},{"title":"更新资产","level":"1.4.2","depth":2,"path":"assetAPI/update-asset.md","ref":"assetAPI/update-asset.md","articles":[]},{"title":"删除资产","level":"1.4.3","depth":2,"path":"assetAPI/delete-asset.md","ref":"assetAPI/delete-asset.md","articles":[]},{"title":"查询资产","level":"1.4.4","depth":2,"path":"assetAPI/get-asset.md","ref":"assetAPI/get-asset.md","articles":[]},{"title":"获取资产及扩展字段","level":"1.4.5","depth":2,"path":"assetAPI/get-asset-customField.md","ref":"assetAPI/get-asset-customField.md","articles":[]}]},"previous":{"title":"推送指标数据","level":"1.3.1","depth":2,"path":"dataAPI/add-data.md","ref":"dataAPI/add-data.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dataAPI/humidity-monitor.md","mtime":"2017-02-22T04:06:58.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-26T08:45:05.000Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

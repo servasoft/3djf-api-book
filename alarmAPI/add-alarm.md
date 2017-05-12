@@ -36,7 +36,14 @@ Accept: application/json
 Content-Type: application/json
 
 ```
-{value:"success", error:''}
+{
+	value:"success", 
+	error:{
+		reason:'',
+		items: 错误的告警对象，但是不一定会有，只有在添加告警做验证不通过时有值
+	}
+}
+
 ```
 
 ### Demo
