@@ -34,13 +34,20 @@ Accept: application/json
 
 Content-Type: application/json
 
+添加成功
+
 ```
 {
-	value: 添加的资产对象(JSON格式), 
-	error:{
-		reason:'',
-		item:错误的资产对象，但是不一定会有，只有在添加资产做验证不通过时有值
-	}
+	value: 添加的资产对象(JSON格式)
+}
+```
+添加失败
+
+```
+{
+	value: "fail", 
+	error: "原因",
+	item: 错误的资产对象，但是不一定会有，只有在添加资产做验证不通过时有值
 }
 ```
 

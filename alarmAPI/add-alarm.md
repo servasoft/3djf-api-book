@@ -35,13 +35,32 @@ Accept: application/json
 
 Content-Type: application/json
 
+验证成功
+
 ```
 {
-	value:"success", 
-	error:{
+	value:"success"
+}
+```
+某种原因验证失败
+
+```
+{
+	value: "fail", 
+	error: "原因",
+	items: [{}],数组元素为，错误的告警对象，但是不一定会有，只有在添加告警做验证不通过时有值
+}
+```
+多种原因验证失败
+
+```
+{
+	value: "fail", 
+	error: "verification failed",
+	items: [{
 		reason:'',
-		items: 错误的告警对象，但是不一定会有，只有在添加告警做验证不通过时有值
-	}
+		items: [{}],数组元素为，错误的告警对象，但是不一定会有，只有在添加告警做验证不通过时有值
+	}]
 }
 
 ```
