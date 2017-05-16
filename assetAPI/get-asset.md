@@ -23,7 +23,7 @@ categoryId   |string|分类编号
 Content-Type: application/json
 
 ```
-{value:{count:'查询结果条目数',rows:array}, error:error}
+{value:{count:'查询结果条目数',rows:array}, error: null或原因}
 ```
 
 array为数组，数组元素包含资产的所有字段，以及资产的所有扩展字段，由于扩展字段由资产分类来决定，所以资产的扩展字段不尽相同

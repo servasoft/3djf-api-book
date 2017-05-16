@@ -20,7 +20,7 @@ id   |string|推送方的告警的唯一标识
 Content-Type: application/json
 
 ```
-{value:"success", error:''}
+{value:"success", error:null}
 ```
 
 ### Demo

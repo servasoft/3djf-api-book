@@ -39,7 +39,7 @@ Accept: application/json
 Content-Type: application/json
 
 ```
-{value:"success", error:''}
+{value:"success", error: null}
 ```
 
 ### Demo

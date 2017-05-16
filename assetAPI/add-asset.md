@@ -38,7 +38,8 @@ Content-Type: application/json
 
 ```
 {
-	value: 添加的资产对象(JSON格式)
+	value: 添加的资产对象(JSON格式),
+	error: null
 }
 ```
 添加失败

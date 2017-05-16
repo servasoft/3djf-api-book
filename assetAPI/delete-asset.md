@@ -18,7 +18,7 @@ id   |string|资产的唯一标识
 Content-Type: application/json
 
 ```
-{value:删除的资产对象(JSON格式), error:''}
+{value:删除的资产对象(JSON格式), error:null或原因}
 ```
 
 ### Demo

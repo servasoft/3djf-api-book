@@ -36,7 +36,10 @@
 Content-Type: application/json
 
 ```
-{value: array, error:''}
+//成功
+{value: array, error: null}
+//失败
+{value: null, error: '原因'}
 ```
 
 array为数组，数组元素包含资产的所有字段，以及资产的所有扩展字段，由于扩展字段由资产分类来决定，所以资产的扩展字段不尽相同

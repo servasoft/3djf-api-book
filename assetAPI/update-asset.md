@@ -33,7 +33,10 @@ Accept: application/json
 Content-Type: application/json
 
 ```
-{value:更新的资产对象(JSON格式), error:''}
+//成功
+{value:‘success’, error: null}
+//失败
+{value:更新的资产对象(JSON格式), error:‘原因’}
 ```
 
 ### Demo

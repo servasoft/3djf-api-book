@@ -39,7 +39,8 @@ Content-Type: application/json
 
 ```
 {
-	value:"success"
+	value:"success",
+	error: null
 }
 ```
 某种原因验证失败
