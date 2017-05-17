@@ -1,6 +1,8 @@
 # Summary
 
 * [简介](README.md)
+* [鉴权](authAPI/README.md)
+    * [认证](authAPI/auth.md)
 * [告警API](alarmAPI/README.md)
     * [增加告警](alarmAPI/add-alarm.md)
     * [更新告警](alarmAPI/update-alarm.md)
