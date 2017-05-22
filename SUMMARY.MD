@@ -16,5 +16,8 @@
     * [删除资产](assetAPI/delete-asset.md)
     * [查询资产](assetAPI/get-asset.md)
     * [获取资产及扩展字段](assetAPI/get-asset-customField.md)
+* [同步资产方案](tempAsset/README.md)
+    * [增加临时资产](tempAsset/add-temp-asset.md)
+    * [删除临时资产](tempAsset/delete-temp-asset.md)
 * [附录一](appendix/appendix1.md)
 
