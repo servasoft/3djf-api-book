@@ -13,7 +13,7 @@ Accept: application/json
 ```
 {
 	module: string,模块名，保留字段，缺省值“PEMS”, 
-	data: [
+	data: {
         'deviceId1': {
             "property1": value1,
             "property2": value2,
@@ -26,7 +26,7 @@ Accept: application/json
             "property3": value3,
             ... ...
         }
-    ]
+    }
 }
 ```
 * deviceId：指推送的业务对象唯一标识或资产对象唯一标识，确切的来说都称为业务对象唯一标示，只是在特定的情况直接将资产对象看作为业务对象。更多细节参考业务对象模块
