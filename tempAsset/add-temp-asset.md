@@ -21,6 +21,7 @@ Accept: application/json
             location: int, 给设备使用，描述设备所在的U位,
             parentId: string，父对象，给设备使用,
             height: int，给设备使用，表示设备所占的U数，
+            isEquipment: boolean, 所添加资产是否为设备
             extend: {}，扩展的字段，这些扩展字段最终将存到对应的Category的扩展表中
         }
     ]
