@@ -11,3 +11,7 @@ RESTfulwebservice：通过统一资源标示符（URL）来识别和定位资源
 
 3D机房系统包含资产管理模块，动力环境监控模块功能模块。
 
+
+### Demo
+
+[接口使用Demo（java）](https://github.com/servasoft/3dAPITest)
